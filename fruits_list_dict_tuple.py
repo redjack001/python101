@@ -1,16 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr 25 22:40:18 2020
-
-@author: redjack
-"""
-
-
 import pandas as pd
 
 #tuple ()
 fruits = ('apple', 'red')
-print('fruits:', fruits, 'is', type(input))
+print('fruits:', fruits, 'is', type(fruits))
 
 #list []
 fruits_list = ['strawberry','apple','orange']
@@ -25,12 +17,14 @@ t1 = ('strawberry', 'red')
 t2 = ('apple', 'red')
 t3 = ('orange','orange')
 
+print(type(t1))
+
 fruits_tuples_of_list = [t1,t2,t3]
 
 print('fruits_tuples_of_list:', fruits_tuples_of_list, 'is', type(fruits_tuples_of_list))
 
-#list of tuple
-fruits_list_of_tuples = [('strawberry', 'red'),('apple', 'red'),('orange', 'orange')]
+#tuple of list
+fruits_list_of_tuples = (['strawberry', 'red'],['apple', 'red'],['orange', 'orange'])
 print('fruits_list_of_tuples: ', fruits_list_of_tuples, 'is', type(fruits_list_of_tuples))
 
 #DataFrame
